@@ -1,11 +1,8 @@
 /* ==UserStyle==
-@name         Suckless.org
-@version      1.0.0
-@description  Dark suckless theme.
-@author       arieboven
-@homepageURL  https://github.com/arieboven/suckless-dark
-@supportURL   https://github.com/arieboven/suckless-dark/issus
-@updateURL    https://raw.githubusercontent.com/arieboven/suckless-dark/master/suckless-dark.css
+name         Suckless.org
+description  Dark suckless theme.
+author       arieboven
+homepageURL  https://github.com/arieboven/suckless-dark
 ==/UserStyle== */
 
 body {
@@ -15,6 +12,10 @@ body {
 
 a {
 	color: #49b !important;
+}
+
+a:hover {
+	color: #057 !important;
 }
 
 #nav {
@@ -27,7 +28,7 @@ a {
 
 #nav a:hover {
 	background-color: #444 !important;
-	color: #6bd !important;
+	color: #bdf !important;
 }
 
 #menu {
@@ -63,6 +64,14 @@ a {
 	background-color: #444 !important;
 }
 
+#branches tr a:hover,
+#tags tr a:hover,
+#index tr a:hover,
+#log tr a:hover,
+#files tr a:hover {
+	color: #bdf !important;
+}
+
 .A, span.i, pre a.i {
 	color: #070 !important;
 }
@@ -74,4 +83,12 @@ a {
 #main img {
 	padding: 2px;
 	background-color: #eee;
+}
+
+#blob a {
+	color: #777 !important;
+}
+
+#blob a:hover {
+	color: #057 !important;
 }

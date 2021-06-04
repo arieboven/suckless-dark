@@ -5,8 +5,12 @@
 
 ## Installation
 
+---
+
 ### Firefox, Chrome
-Make use of the addon **Stylus** for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome (based)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+Make use of the addon **Stylus** for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome (based)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+
+---
 
 ### Firefox alternative
 - Unlock custom CSS usage:
@@ -20,9 +24,18 @@ Make use of the addon **Stylus** for [Firefox](https://addons.mozilla.org/en-US/
       $ mkdir ~/.mozilla/firefox/<profile_name>/chrome
       $ echo -e "@-moz-document domain('suckless.org'){\n$(cat suckless-dark.css)}" >> ~/.mozilla/firefox/<profile_name>/chrome/userContent.css
 
+- Restart the browser.
+
+---
+
 ### Surf
 Add the following line in the `styles` variable in your `config.h` file:
 
     { "suckless.org", "suckless-dark.css" },
 
 Copy `suckless-dark.css` to your defined `styledir` directory.
+
+---
+
+### Other
+If you use another browser than listed here, I am sure you can figure out how to add a custom css for a specific webpage in your chosen browers.

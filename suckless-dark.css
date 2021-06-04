@@ -28,7 +28,7 @@ a:hover {
 
 #nav a:hover {
 	background-color: #444 !important;
-	color: #49b !important;
+	color: #69b !important;
 }
 
 #menu {
@@ -69,7 +69,7 @@ a:hover {
 #index tr a:hover,
 #log tr a:hover,
 #files tr a:hover {
-	color: #49b !important;
+	color: #69b !important;
 }
 
 .A, span.i, pre a.i {

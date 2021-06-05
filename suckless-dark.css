@@ -80,11 +80,18 @@ a:hover {
 	color: #900 !important;
 }
 
-#main img {
-	padding: 2px;
-	background-color: #eee;
+[src="dwm.svg"],
+[src="st.svg"],
+[src="core.svg"],
+[src="surf.svg"],
+[src="blind.svg"],
+[src="farbfeld.svg"],
+[src="quark.svg"],
+[src="sent-bullets-s.svg"],
+[src="slstatus.svg"] {
+	filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
 }
-
+	
 #blob a {
 	color: #777 !important;
 }
